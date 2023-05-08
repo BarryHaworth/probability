@@ -5,7 +5,7 @@
 # Taken from a post on Reddit:
 #  https://www.reddit.com/r/dataisbeautiful/comments/rihb0h/simulation_of_eulers_number_oc/
 
-N <- 1000 # Number of trials
+N <- 100000 # Number of trials
 results <- rep(0,N)
 y <- rep(0,N)
 
