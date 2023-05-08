@@ -23,6 +23,6 @@ for (i in 1:N){
 summary(x)
 table(x)
 table(x) / N
-hist(x)
+hist(x,main="Distribution of d20 to d12 excess")
 
 
