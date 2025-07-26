@@ -20,6 +20,7 @@ for (i in 1:N){
 }
 hist(house.haunt,breaks=12)
 summary(house.haunt)
+table(house.haunt)
 
 baldur <- function(){
   for(haunt in 1:12){
@@ -35,3 +36,4 @@ for (i in 1:N){
 }
 hist(baldur.haunt,breaks=12)
 summary(baldur.haunt)
+table(baldur.haunt)
